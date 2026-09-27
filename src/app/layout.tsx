@@ -26,6 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         {children}
          {/* <ToastContainer /> */}
          </Providers>
+         <footer/>
         </body>
     </html>
   );

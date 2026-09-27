@@ -1,3 +1,4 @@
+import bannerImg from ' ../../assets/banner.png';
 export default function Hero() {
   return (
     <section className="bg-[#1E1E1E] px-5 py-6 text-white">
@@ -38,12 +39,13 @@ export default function Hero() {
 
             <div className="flex h-full w-full items-center justify-center">
 
-              {/* Temporary image area */}
-              <div className="flex h-64 w-64 items-center justify-center rounded-lg bg-[#25272C]">
-                <span className="text-xs uppercase tracking-widest text-white/30">
-                  Workout Image
-                </span>
-              </div>
+            {/* hero image area */}
+{/* <img src="/bannerImg" alt="Hero banner" className="h-[334px] w-[334px] object-cover rounded-lg" /> */}
+<div className="flex h-64 w-64 items-center justify-center rounded-lg bg-[#25272C]">
+  <span className="text-xs uppercase tracking-widest text-white/30">
+    Workout Image
+  </span>
+</div>
 
             </div>
 

@@ -1,12 +1,18 @@
+import logoImg from '../../assets/logo.png';
 export default function Navbar() {
   return (
     <nav className="flex h-16 items-center justify-between border-b border-white/10 bg-[#1E1E1E] px-6 text-white">
 
       {/* LEFT - LOGO */}
       <div className="flex items-center gap-2">
-        <div className="flex h-6 w-6 items-center justify-center rounded bg-[#B6FF00] text-[9px] font-black text-black">
+        {/* <img 
+    src="/logo.png" 
+    alt="FitLog Logo" 
+    className="h-8 w-auto object-contain" 
+  /> */}
+        {/* <div className="flex h-6 w-6 items-center justify-center rounded bg-[#B6FF00] text-[9px] font-black text-black">
           F
-        </div>
+        </div> */}
 
         <span className="text-xs font-bold tracking-wide">
           FITLOG
